@@ -101,6 +101,7 @@ class MasterCard extends StatelessWidget {
                           ],
                         ),
                       ),
+                      SizedBox(height: 24.0),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
