@@ -87,7 +87,9 @@ class MasterCard extends StatelessWidget {
                               ),
                             ],
                           ),
+                          SizedBox(width: 36.0),
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 "CVV",
