@@ -68,6 +68,7 @@ class MasterCard extends StatelessWidget {
                         ),
                       ),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Column(
                             children: [
@@ -87,7 +88,6 @@ class MasterCard extends StatelessWidget {
                               ),
                             ],
                           ),
-                          SizedBox(width: 36.0),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -107,6 +107,7 @@ class MasterCard extends StatelessWidget {
                               ),
                             ],
                           ),
+                          SizedBox(width: 128.0),
                           Text(
                             "Master Card",
                             style: TextStyle(
