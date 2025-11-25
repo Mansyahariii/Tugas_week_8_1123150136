@@ -13,14 +13,23 @@ class MasterCard extends StatelessWidget {
           child: Column(
             children: [
               Card(
-                color: const Color(0xFF2F486A),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(24.0),
-                ),
                 child: Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 28.0,
                     vertical: 26.0,
+                  ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(24.0),
+                    gradient: const LinearGradient(
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                      colors: [
+                        Color(0xFF2F486A),
+                        Color(
+                          0xFF3B5A87,
+                        ), // warna kedua, bisa lo ganti biar makin smooth
+                      ],
+                    ),
                   ),
                   child: Column(
                     children: [
