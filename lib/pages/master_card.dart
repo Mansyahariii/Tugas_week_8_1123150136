@@ -69,9 +69,27 @@ class MasterCard extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          Text("text", style: TextStyle(fontSize: 14.0)),
-                          Text("text", style: TextStyle(fontSize: 14.0)),
-                          Text("text", style: TextStyle(fontSize: 14.0)),
+                          Text(
+                            "text",
+                            style: TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            "text",
+                            style: TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            "text",
+                            style: TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.white,
+                            ),
+                          ),
                         ],
                       ),
                     ],
