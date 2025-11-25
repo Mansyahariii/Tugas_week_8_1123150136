@@ -70,21 +70,21 @@ class MasterCard extends StatelessWidget {
                       Row(
                         children: [
                           Text(
-                            "text",
+                            "Expiry Date",
                             style: TextStyle(
                               fontSize: 14.0,
                               color: Colors.white,
                             ),
                           ),
                           Text(
-                            "text",
+                            "CVV",
                             style: TextStyle(
                               fontSize: 14.0,
                               color: Colors.white,
                             ),
                           ),
                           Text(
-                            "text",
+                            "Master Card",
                             style: TextStyle(
                               fontSize: 14.0,
                               color: Colors.white,
