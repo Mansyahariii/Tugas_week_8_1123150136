@@ -39,9 +39,17 @@ class MasterCard extends StatelessWidget {
                           ),
                         ],
                       ),
+                      Container(
+                        padding: const EdgeInsets.symmetric(vertical: 30.0),
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          "1234  5678  9012  3456",
+                          style: TextStyle(fontSize: 30.0, color: Colors.white),
+                        ),
+                      ),
                       Text(
-                        "1234  5678  9012  3456",
-                        style: TextStyle(fontSize: 30.0, color: Colors.white),
+                        "Ari Firmansyah",
+                        style: TextStyle(fontSize: 24.0, color: Colors.white),
                       ),
                     ],
                   ),
