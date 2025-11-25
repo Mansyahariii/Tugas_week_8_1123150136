@@ -29,15 +29,19 @@ class MasterCard extends StatelessWidget {
                         children: [
                           Icon(
                             Icons.credit_card,
-                            size: 24.0,
+                            size: 48.0,
                             color: Color(0xFFDCE6F5),
                           ),
                           Icon(
                             Icons.contactless,
-                            size: 24.0,
+                            size: 48.0,
                             color: Color(0xFFDCE6F5),
                           ),
                         ],
+                      ),
+                      Text(
+                        "1234  5678  9012  3456",
+                        style: TextStyle(fontSize: 30.0, color: Colors.white),
                       ),
                     ],
                   ),
