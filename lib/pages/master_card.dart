@@ -47,9 +47,12 @@ class MasterCard extends StatelessWidget {
                           style: TextStyle(fontSize: 30.0, color: Colors.white),
                         ),
                       ),
-                      Text(
-                        "Ari Firmansyah",
-                        style: TextStyle(fontSize: 24.0, color: Colors.white),
+                      Container(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          "Ari Firmansyah",
+                          style: TextStyle(fontSize: 24.0, color: Colors.white),
+                        ),
                       ),
                     ],
                   ),
