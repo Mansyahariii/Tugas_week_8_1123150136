@@ -66,6 +66,15 @@ class MasterCard extends StatelessWidget {
                             Stack(
                               children: [
                                 Container(
+                                  margin: const EdgeInsets.only(left: 28.0),
+                                  height: 52.0,
+                                  width: 52.0,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFFF79E1B),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                                Container(
                                   height: 52.0,
                                   width: 52.0,
                                   decoration: BoxDecoration(
@@ -78,7 +87,7 @@ class MasterCard extends StatelessWidget {
                                   height: 52.0,
                                   width: 52.0,
                                   decoration: BoxDecoration(
-                                    color: Color(0xFFF79E1B),
+                                    color: Color(0x99F79E1B),
                                     shape: BoxShape.circle,
                                   ),
                                 ),
