@@ -14,6 +14,9 @@ class MasterCard extends StatelessWidget {
             children: [
               Card(
                 color: const Color(0xFF2F486A),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(24.0),
+                ),
                 child: Container(
                   padding: const EdgeInsets.symmetric(
                     horizontal: 28.0,
