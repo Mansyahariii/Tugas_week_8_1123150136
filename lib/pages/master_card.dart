@@ -14,9 +14,12 @@ class MasterCard extends StatelessWidget {
             children: [
               Card(
                 color: Color(0xFF2F486A),
-                child: Text(
-                  "Card with color",
-                  style: TextStyle(fontSize: 16.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.credit_card, size: 24.0, color: Colors.white),
+                    Icon(Icons.contactless, size: 24.0, color: Colors.white),
+                  ],
                 ),
               ),
             ],
