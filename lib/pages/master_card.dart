@@ -30,12 +30,12 @@ class MasterCard extends StatelessWidget {
                           Icon(
                             Icons.credit_card,
                             size: 48.0,
-                            color: Color(0xFFDCE6F5),
+                            color: Color(0x99FFFFFF),
                           ),
                           Icon(
                             Icons.contactless,
                             size: 48.0,
-                            color: Color(0xFFDCE6F5),
+                            color: Color(0x99FFFFFF),
                           ),
                         ],
                       ),
@@ -75,7 +75,7 @@ class MasterCard extends StatelessWidget {
                                 "Expiry Date",
                                 style: TextStyle(
                                   fontSize: 14.0,
-                                  color: Colors.white,
+                                  color: Color(0x99FFFFFF),
                                 ),
                               ),
                               Text(
@@ -93,7 +93,7 @@ class MasterCard extends StatelessWidget {
                                 "CVV",
                                 style: TextStyle(
                                   fontSize: 14.0,
-                                  color: Colors.white,
+                                  color: Color(0x99FFFFFF),
                                 ),
                               ),
                               Text(
@@ -108,7 +108,7 @@ class MasterCard extends StatelessWidget {
                           Text(
                             "Master Card",
                             style: TextStyle(
-                              fontSize: 14.0,
+                              fontSize: 20.0,
                               color: Colors.white,
                             ),
                           ),
