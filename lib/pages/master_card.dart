@@ -50,6 +50,7 @@ class MasterCard extends StatelessWidget {
                       Container(
                         alignment: Alignment.centerLeft,
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "Ari Firmansyah",
