@@ -87,12 +87,16 @@ class MasterCard extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Text(
-                            "CVV",
-                            style: TextStyle(
-                              fontSize: 14.0,
-                              color: Colors.white,
-                            ),
+                          Column(
+                            children: [
+                              Text(
+                                "CVV",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
                           Text(
                             "Master Card",
