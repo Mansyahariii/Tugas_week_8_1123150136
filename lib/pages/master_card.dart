@@ -44,7 +44,11 @@ class MasterCard extends StatelessWidget {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           "1234  5678  9012  3456",
-                          style: TextStyle(fontSize: 30.0, color: Colors.white),
+                          style: TextStyle(
+                            fontSize: 30.0,
+                            color: Colors.white,
+                            letterSpacing: 2.0,
+                          ),
                         ),
                       ),
                       Container(
