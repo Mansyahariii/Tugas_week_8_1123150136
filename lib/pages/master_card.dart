@@ -22,18 +22,22 @@ class MasterCard extends StatelessWidget {
                     horizontal: 28.0,
                     vertical: 26.0,
                   ),
-                  child: const Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  child: Column(
                     children: [
-                      Icon(
-                        Icons.credit_card,
-                        size: 24.0,
-                        color: Color(0xFFDCE6F5),
-                      ),
-                      Icon(
-                        Icons.contactless,
-                        size: 24.0,
-                        color: Color(0xFFDCE6F5),
+                      const Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(
+                            Icons.credit_card,
+                            size: 24.0,
+                            color: Color(0xFFDCE6F5),
+                          ),
+                          Icon(
+                            Icons.contactless,
+                            size: 24.0,
+                            color: Color(0xFFDCE6F5),
+                          ),
+                        ],
                       ),
                     ],
                   ),
