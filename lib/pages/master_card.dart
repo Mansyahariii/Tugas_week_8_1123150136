@@ -10,24 +10,27 @@ class MasterCard extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.all(20.0),
-          child: const Column(
+          child: Column(
             children: [
               Card(
-                color: Color(0xFF2F486A),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Icon(
-                      Icons.credit_card,
-                      size: 24.0,
-                      color: Color(0xFFDCE6F5),
-                    ),
-                    Icon(
-                      Icons.contactless,
-                      size: 24.0,
-                      color: Color(0xFFDCE6F5),
-                    ),
-                  ],
+                color: const Color(0xFF2F486A),
+                child: Container(
+                  padding: const EdgeInsets.all(20.0),
+                  child: const Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Icon(
+                        Icons.credit_card,
+                        size: 24.0,
+                        color: Color(0xFFDCE6F5),
+                      ),
+                      Icon(
+                        Icons.contactless,
+                        size: 24.0,
+                        color: Color(0xFFDCE6F5),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],
