@@ -63,11 +63,32 @@ class MasterCard extends StatelessWidget {
                                 color: Colors.white,
                               ),
                             ),
-                            Image.asset(
-                              "assets/images/mastercard.png",
-                              height: 86.0,
-                              width: 86.0,
+                            Stack(
+                              children: [
+                                Container(
+                                  height: 52.0,
+                                  width: 52.0,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFFEB001B),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                                Container(
+                                  margin: const EdgeInsets.only(left: 28.0),
+                                  height: 52.0,
+                                  width: 52.0,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFFF79E1B),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                              ],
                             ),
+                            // Image.asset(
+                            //   "assets/images/mastercard.png",
+                            //   height: 86.0,
+                            //   width: 86.0,
+                            // ),
                           ],
                         ),
                       ),
