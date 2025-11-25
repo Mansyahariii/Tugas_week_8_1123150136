@@ -96,6 +96,13 @@ class MasterCard extends StatelessWidget {
                                   color: Colors.white,
                                 ),
                               ),
+                              Text(
+                                "1234",
+                                style: TextStyle(
+                                  fontSize: 20.0,
+                                  color: Colors.white,
+                                ),
+                              ),
                             ],
                           ),
                           Text(
