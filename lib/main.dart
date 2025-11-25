@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:week8/pages/page_card_01.dart';
+import 'package:week8/pages/master_card.dart';
+// import 'package:week8/pages/page_card_01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Coba Card',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: CardPage(),
+      home: MasterCard(),
     );
   }
 }
